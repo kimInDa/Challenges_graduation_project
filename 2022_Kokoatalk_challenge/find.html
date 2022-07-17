@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Find - AnimalTalk</title>
+</head>
+
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>  
+            <i class="fas fa-wifi"></i>
+        </div>  
+        <div class="status-bar__column">
+            <span>18:06</span>
+        </div>
+        <div class="status-bar__column">
+            <span>66%</span>
+            <i class="fas fa-battery-half fa-lg"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <i class="fa-regular fa-magnifying-glass fa-xl"></i>
+            <i class="fa-regular fa-gear fa-xl"></i>
+            <!-- <div class="screen-header__notidot notidot"></div> -->
+        </div>
+    </header>
+
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fa-light fa-qrcode"></i>
+                <span>QR Code</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-light fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-light fa-face-viewfinder"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="icon-row__icon">
+                <i class="fa-light fa-envelope"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+        <div class="reocommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <span>You have no Recommended friends.</span>
+        </div>
+        <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <div>Go to Openchat Home <i class="fa-solid fa-angle-right fa-sm"></i></div>    
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#HIGHLIGHT</h5>
+                    <h6 class="open-post__hashtags">#highlight#light#friends</h6>
+                    <div class="open-post__members">
+                        <img src="images/light.png">
+                        <span class="open-post__member-count">1016 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="images/Highlight.jpg">
+                        <div class="open-post__heart-count">
+                            <i class="fa-solid fa-heart fa-xs"></i>
+                            <span>320</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nave__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-light fa-paw fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="fa-light fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-regular fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <div class="nav__notidot notidot"></div>    
+                    <i class="fa-light fa-ellipsis-stroke fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/cc34d7497c.js" crossorigin="anonymous"></script>
+   
+</body>
+</html>

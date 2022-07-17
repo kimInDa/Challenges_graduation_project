@@ -3,4 +3,7 @@
     --green: #D1EAA3;
     --purple: #DBC6EB;
     --blue: #ABC2E8;
+    --gray: rgba(0, 0, 0, 0.5);
+    --horizontal-space: 25px;
+    --main-border: 1px solid rgba(0, 0, 0, 0.3);
 }

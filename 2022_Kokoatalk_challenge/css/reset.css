@@ -50,7 +50,3 @@ a{
 	color: inherit;
 	text-decoration: none;
 }
-
-input:focus {
-	outline: none;
-}

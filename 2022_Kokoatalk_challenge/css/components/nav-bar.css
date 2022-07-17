@@ -19,32 +19,15 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 12px;
-    font-weight: 380;
     position: absolute;
     left: 20px;
     bottom: 15px;
 }
 
 .nav__notidot {
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: absolute;
     left: 35px;
-    bootom: 25px;
+    bottom: 25px;
 }
 
 .nav__icon {
