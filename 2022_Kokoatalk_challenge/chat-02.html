@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> chat - AnimalTalk</title>
+</head>
+
+<body class="chat-screen chat-02">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>  
+            <i class="fas fa-wifi"></i>
+        </div>  
+        <div class="status-bar__column">
+            <span>18:06</span>
+        </div>
+        <div class="status-bar__column">
+            <span>66%</span>
+            <i class="fas fa-battery-half fa-lg"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fa-light fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Dog</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-regular fa-magnifying-glass fa-xl"></i></span>
+            <span><i class="fa-light fa-bars fa-xl"></i></span>
+        </div>
+    </header>
+
+    <main class="main-screen main-chat">
+        
+        <div class="chat__timestamp">
+            Saturday, July 16, 2022
+        </div>
+
+        
+        <div class="message-row message-row--own">
+            <div class="massage-row__content">
+                <div class="message-row__info">
+                    <span class="message-row__bubble">Which do you prefer,</span>
+                    <!-- <span class="message-row__time">21:27</span> -->
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="massage-row__content">
+                <div class="message-row__info">
+                    <span class="message-row__bubble">basketball or football?</span>
+                    <span class="message-row__time">19:04</span>
+                </div>
+            </div>
+        </div>  
+        <div class="message-row">
+            <img src="images/dog.png">
+            <div class="massage-row__content">
+                <span class="message-row__author">Dog</span>
+                <div class="message-row__info">
+                    <span class="message-row__bubble">football!!</span>
+                    <span class="message-row__time">19:04</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-regular fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/cc34d7497c.js" crossorigin="anonymous"></script>
+   
+</body>
+</html>

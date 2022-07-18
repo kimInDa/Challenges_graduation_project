@@ -14,3 +14,8 @@
 .icon-row__icon span {
     margin-top: 20px;
 }
+
+
+.icon-row:nth-child(3) .icon-row__icon:nth-child(3) {
+    width: 12%;
+}

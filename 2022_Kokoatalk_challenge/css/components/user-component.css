@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .user-component,
@@ -23,7 +24,8 @@
 .user-component__subtitle {
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.3);
+    /* color: rgba(0, 0, 0, 0.3); */
+    color: var(--green);
     display: flex;
     align-items: center;
 }
@@ -45,6 +47,18 @@
     width: 60px;
     height: 60px;
     border-radius: 25px;
+}
+.user-component__avatar--channel {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 8px;
+    color: white;
 }
 
 .user-component__title--not-bold {

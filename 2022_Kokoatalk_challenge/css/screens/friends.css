@@ -1,7 +1,7 @@
 #friends-display-link {
     display: block;
     text-align: center;
-    background-color: #FAFAFA;
+    background-color: var(--lightgreen);
     padding: 15px 0px;
     font-size: 16px;
     margin-bottom: 10px;
@@ -32,6 +32,18 @@
     justify-content: space-between;
     color: var(--gray);
 }
+.friends-screen__friends {
+    margin-top: 25px;
+    border-top: var(--main-border  );
+    padding-top: 15px;
+}
+
+.friends-screen__friends-header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+}
 
 @keyframes hideSplashScreen {
     from {
@@ -44,7 +56,7 @@
 }
 
 #splash-screen {
-    background-color: var(--green);
+    background-color: white;
     position: absolute;
     height: 100vh;
     width: 100vw;
@@ -52,8 +64,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 132px;
-    color: var(--brown);
+    font-size: 136px;
+    color: var(--green);
     animation: hideSplashScreen 0.4s ease-in-out forwards;
     animation-delay: 0.8s;
 } 

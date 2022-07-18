@@ -5,7 +5,9 @@
     --Hblue: #ABC2E8;
     --gray: rgba(0, 0, 0, 0.5);
     --green: #127c56;
+    --lightgreen: #f9faf9;
     --brown: #3D262A;
+    --lightbrown:#38383827;
     --horizontal-space: 25px;
-    --main-border: 1px solid rgba(0, 0, 0, 0.3);
+    --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }

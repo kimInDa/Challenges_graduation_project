@@ -29,6 +29,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: var(--main-border);
+    padding: 10px 0px;
 }
 
 .open-post__title {
@@ -61,7 +63,7 @@
     margin: 0px 5px;
 }
 .open-post__member-status {
-    color: var(--purple);
+    color: var(--green);
 }
 
 
